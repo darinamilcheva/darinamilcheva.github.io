@@ -16,7 +16,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: Swear Display;
+	font: "Swear Display";
 	font-style: normal;
 	vertical-align: baseline;}
 
@@ -2886,7 +2886,6 @@ input, select, textarea {
 						height: 3em;
 						line-height: 3em;
 						padding: 0 1.5em;
-						background-color: rgba(255, 255, 255, 0.5);
 						border-radius: 4px;
 						border: 0;
 						font-size: 0.8em;
