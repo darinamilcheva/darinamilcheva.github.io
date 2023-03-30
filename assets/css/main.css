@@ -164,10 +164,9 @@ input, select, textarea {
 	h1 {
 		font-size: large;
 		font-family: "swear_displayregular";
-		font-weight: 700;
-		line-height: 1.3;
-		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		font-style: normal;
+		font-weight: 300;
+		
 	}
 
 		h1 a {
