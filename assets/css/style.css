@@ -254,6 +254,16 @@ body.nav-active { overflow: hidden; }
   animation: slideIn 0.5s ease forwards;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+.logo {
+font-family: var(--ff-manrope);
+font-style: sans-serif;
+font-weight: 700;
+font-size: large;
+}
+
+
 @keyframes slideIn {
   0% { transform: translateY(-100%); }
   100% { transform: translateY(0); }
