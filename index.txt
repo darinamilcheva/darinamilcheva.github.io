@@ -1,30 +1,25 @@
-Julia - I'm User Interface Designer & Developer.
-
-This is a personal portfolio html template made by codewithsadee
+Darina - I'm User Experience Designer & Developer.
 
 
 
 #---------- HEADER ----------#
 
-alt = Julia home
+alt = Darry home
 
 aria-label = close menu
 <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
 
-Home
-About
+
+About me
 Projects
-Blog
 Contact
 
 info@email.com
-00 (123) 456 78 90
 
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-dribbble"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-youtube"></ion-icon>
+
+<ion-icon name="logo-behance"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+
 
 aria-label = open menu
 <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -33,13 +28,13 @@ aria-label = open menu
 
 #---------- HERO ----------#
 
-alt = Julia
+alt = Darry
 
 alt = 250+ Projects Done
 
 I'm User Interface Designer & Developer.
 
-Hello! I'm Julia, a freelance user interface designer & developer based in London. I’m very passionate about the work that I do.
+
 
 See My Works
 Contact Me
