@@ -1,3 +1,9 @@
+entry: {
+    
+    styles: './css/shape.scss'
+  }
+
+
 $(document).ready(function() {
 
     var html = '';
