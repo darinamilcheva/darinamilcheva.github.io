@@ -51,6 +51,10 @@
 
   --shadow-1: 0 0 20px hsla(216, 14%, 14%, 0.05);
   --shadow-2: 0 4px 28px hsla(216, 14%, 14%, 0.07);
+  --shadow-3: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+
+
 
   /**
    * border radius
@@ -124,10 +128,11 @@ html {
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--white); 
   color: var(--black-coral);
   font-size: 1.6rem;
   line-height: 1.7;
+  
 }
 
 body.nav-active { overflow: hidden; }
@@ -148,7 +153,12 @@ body.nav-active { overflow: hidden; }
   #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 16px; }
+.container { 
+  padding-inline: 16px; 
+  
+
+
+}
 
 .social-list {
   display: flex;
@@ -245,7 +255,7 @@ body.nav-active { overflow: hidden; }
   background-color: var(--white);
   width: 100%;
   padding-block: 20px;
-  box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow-3) ;
   z-index: 4;
 }
 
@@ -297,6 +307,7 @@ font-size: large;
   z-index: 2;
   visibility: hidden;
   transition: var(--transition-3);
+  box-shadow: var(--shadow-3);
 }
 
 .navbar.active {
@@ -340,7 +351,7 @@ font-size: large;
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: var(--raisin-black);
+  background-color: var(--raisin-black); 
   pointer-events: none;
   opacity: 0;
   transition: var(--transition-1);
@@ -362,6 +373,11 @@ font-size: large;
 .hero {
   padding-block-start: calc(var(--section-padding) + 50px);
   background-color: var(--cultured);
+
+  /* background: linear-gradient(45deg,#737dfe,#ffcac9);
+  
+  animation: color 12s ease-in-out infinite; */
+  
 }
 
 .hero .container {
@@ -455,7 +471,14 @@ font-size: large;
   #PROJECTS
 \*-----------------------------------*/
 
-.project { border-block: 1px solid var(--cadet-blue-crayola_a20); }
+.project { 
+  border-block: 1px 
+  solid var(--cadet-blue-crayola_a20);
+  
+
+
+}
+
 
 .project .title-wrapper { margin-block-end: 40px; }
 
@@ -465,7 +488,7 @@ font-size: large;
 
 .project-card {
   --padding: 24px;
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   display: flex;
   flex-direction: column;
   gap: var(--padding);
@@ -501,7 +524,56 @@ font-size: large;
 
 .project-card .btn-text:is(:hover, :focus-visible) { gap: 10px; }
 
+.shape {
+  margin: 0 auto;
+  position: relative;
+}
 
+.random-shape:after {
+  font-family: FontAwesome;
+  content: "\f005";
+}
+
+$circle-size: 100px;
+$colors: #FFD700, #FFF8DC, #DB7093, #C2B7FE, ;
+$shapes: '\f005', '\f0c8', '\f1db', '\f096', '\f1d8', '\f1cb';
+$shape-count: 50;
+
+@for $i from 1 through $shape-count {
+  $shape-size: random(10);
+  $rotation: random(360);
+  $speed: 40 + random(10);
+  $color-key: random( length($colors) );
+  $shape-color: nth( $colors, $color-key );
+  $shape-key: random( length($shapes) );
+  $shape-type: nth( $shapes, $shape-key );
+  $text: random(10);
+  
+  @keyframes shape-#{$i} {
+      0% {
+          transform: translate3d(0,0,0) rotate(#{$rotation + 0}deg);
+      }
+      100% {
+          transform: translate3d(0,0,0) rotate(#{$rotation + 360}deg);
+      }
+  }
+
+  .shape-container--#{$i} { 
+      animation: shape-#{$i} #{$speed}s linear infinite;
+
+      .random-shape:after {
+          margin: #{$shape-size}rem;
+          color: $shape-color;
+          font-size: #{$shape-size * 0.2}rem;
+          content: $shape-type;
+      }
+  }
+}
+
+.stop-shape  {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
 
 
 
@@ -838,7 +910,10 @@ textarea.input-field {
    */
 
   .container,
-  .header { max-width: 1140px; }
+  .header { 
+    max-width: 1140px; 
+    
+  }
 
 
 
