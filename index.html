@@ -29,12 +29,21 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/shape.css">
+  
+
 
   <!-- 
     - preload images
   -->
   <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
   <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+  <!-- 
+    - floating shapes 
+  -->
+
+
 
 </head>
 
@@ -111,6 +120,7 @@
           </li> -->
 
         </ul>
+        
 
       </nav>
 
@@ -172,30 +182,40 @@
       <!-- 
         - #PROJECT
       -->
-
+      
       <section class="section project" aria-labelledby="project-label" id="portfolio">
+        
+        
+          <aside class="shape"> </aside>
+        
         <div class="container">
-           <div class="inner-container"> 
-             
-              <div class="shape"> 
-              <div class="shape-container--'+i+' shape-animation"><div class="random-shape"> </div> </div>  
-          <div class="title-wrapper" data-reveal="top">
+          <div class="project-container">
+          
+         
+          
 
-            <div>
-			  <h2 class="h2 section-title" id="project-label">Portfolio</h2>
+          <div class="title-wrapper" data-reveal="top">
+           
+             
               
+            
+            
+			     <h2 class="h2 section-title" id="project-label">Portfolio</h2>
+              <br>
 
               <!-- <p class="section-text">
                 Check out some of my latest projects with creative ideas. 
               </p> -->
 			  
-            </div>
+          </div>
+             
 
             <!-- <a href="#" class="btn btn-secondary">See All Projects</a>  -->
 
-          </div>
-
+          
+                                                                                             
           <ul class="grid-list">
+            
 
             <li>
               <div class="project-card project-card-1" style="background-color: #fcf4f6">
@@ -271,7 +291,7 @@
                     <!-- Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
                     id ligula felis. -->
                     Group Chats feature on the Tumblr App - Is it being utilised? How often do users use additional 
-                    features provided in the app?
+                    features in the app?
                   </p>
 
                   <a href="https://docs.google.com/document/d/e/2PACX-1vT2-3HjZYo0xMQSiQdT4NZwsUJ9d0xSpby7uhy4WVvpirAs8dsO0eW0U-5KZrC0Og/pub" target="_blank" class="btn-text" style="color: #3f78e0">
@@ -318,18 +338,24 @@
                 </figure>
 
               </div>
+            
             </li>
 
           </ul>
 
-        </div>
-        </div>
-        </div>
-          
+         
+          </div>
         
+      
+
+        
+
+      
+      
+
       </section>
-
-
+ 
+    
     <!-- 
         - #ABOUT
       -->
@@ -565,20 +591,22 @@
 
 
 
-
+ <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
   <!-- 
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-  <script src="shape.js"></script>
+  <script src="./assets/js/shape.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
 
+  
 </body>
 
 </html>

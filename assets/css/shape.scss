@@ -1,4 +1,9 @@
-.floatybg {
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400');
+
+
     
     
   
@@ -6,7 +11,8 @@
       width: 90%;
       margin: 0 auto;
     }
-  }
+ 
+
 .shape {
     margin: 0 auto;
     position: relative;
@@ -51,10 +57,5 @@
             content: $shape-type;
         }
     }
-  }
-  
-  .stop-shape  {
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
   }
   

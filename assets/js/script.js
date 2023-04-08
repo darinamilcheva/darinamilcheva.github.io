@@ -22,13 +22,15 @@ const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]");
 
-const toggleNavbar = function () {
+
+function toggleNavbar() {
   navbar.classList.toggle("active");
   overlay.classList.toggle("active");
   document.body.classList.toggle("nav-active");
 }
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
+
 
 
 
@@ -71,32 +73,6 @@ for (let i = 0, len = revealDelayElements.length; i < len; i++) {
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 
-entry: {
-    
-  styles: './css/shape.scss'
-}
 
 
-$(document).ready(function() {
 
-  var html = '';
-  for (var i = 1; i <= 50; i ++) {
-      html += '<div class="shape-container--'+i+' shape-animation"><div class="random-shape"></div></div>';
-  }
-    
-  document.querySelector('.shape').innerHTML += html;
-  
-  var $allShapes = $("[class*='shape-container--']");
-  $('.button').click(function (event) {
-      $allShapes.toggleClass("stop-shape");
-      var $this = $(this);
-      $this.toggleClass('.button');
-      if($this.hasClass('.button')){
-          $this.text('Unfreeze shapes');         
-      } else {
-          $this.text('Freeze shapes');
-      }
-      event.preventDefault();
-  });
-  
-  });
