@@ -17,9 +17,10 @@
   width: 100%;
   min-width: max-content;
   
-  /* display: flex;
   
-  overflow: auto;
+  flex-direction: column;
+  
+  /* overflow: auto;
   overflow: hidden; */
 
 }
