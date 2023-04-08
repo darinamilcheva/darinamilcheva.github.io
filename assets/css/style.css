@@ -656,7 +656,7 @@ textarea.input-field {
     margin-inline: auto;
     
   }
-
+  .section-text { --fs-5: 1.8rem; }
 
 
 
@@ -664,7 +664,7 @@ textarea.input-field {
    * PROJECT
    */
 
-  .project-card { --padding: 68px; }
+  .project-card { --padding: 68px; margin: 0;}
 
 
   .project-container {
@@ -836,6 +836,7 @@ textarea.input-field {
   .navbar .social-link {
     color: var(--charcoal);
     font-size: 1.8rem;
+    display: flex;
   }
 
   .header {
