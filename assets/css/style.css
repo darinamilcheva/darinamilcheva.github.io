@@ -43,7 +43,7 @@
    * spacing
    */
 
-  --section-padding: 90px;
+  --section-padding: 90px;                                       /*** tested with 60px, there was no difference lol ***/
 
   /**
    * box shadow
@@ -155,7 +155,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .container { 
-  padding-inline: 16px; 
+  padding-inline: 5px; 
   position: relative;
   
   
@@ -472,12 +472,12 @@ font-size: large;
   
 }
 
-.progress-list .label-wrapper {
+/* .progress-list .label-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-block-end: 4px;
-}
+} */
 
 .progress-item:not(:last-child) { margin-block-end: 16px; }
 
@@ -510,7 +510,7 @@ font-size: large;
 
 
 .project { 
-  border-block: 1px 
+  border-block: 1px
   solid var(--cadet-blue-crayola_a20);
   
   position: relative;
@@ -532,7 +532,9 @@ font-size: large;
 .project .grid-list { gap: 40px; }
 
 .project-card {
-  --padding: 24px;
+  --padding: 65px;
+  padding-right: 5px;
+  text-align: left;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   display: flex;
   flex-direction: column;
@@ -596,7 +598,7 @@ font-size: large;
 
 .contact-card {
   background-color: var(--snow);
-  padding: 32px;
+  padding: 55px;
   border-radius: var(--radius-8);
   display: grid;
   gap: 40px;
