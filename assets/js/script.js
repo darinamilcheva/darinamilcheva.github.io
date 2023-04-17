@@ -131,3 +131,7 @@ function easeInOutCubic(t, b, c, d) {
 	t -= 2;
 	return c/2*(t*t*t + 2) + b;
 };
+
+
+// custom script
+
