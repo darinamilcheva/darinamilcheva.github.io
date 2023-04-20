@@ -419,7 +419,7 @@ font-size: large;
 
 .hero .container {
   display: grid;
-  gap: 50px;
+  gap: 10px;
   
 }
 
@@ -429,7 +429,7 @@ font-size: large;
   margin-inline: auto;
 }
 
-.hero-banner .w-100 {
+/* .hero-banner .w-100 {
   mask-image: url("../images/Blob.svg");
   -webkit-mask-image: url("../images/Blog.svg");
   mask-repeat: no-repeat;
@@ -438,7 +438,7 @@ font-size: large;
   -webkit-mask-position: center;
   mask-size: auto;
   -webkit-mask-size: auto;
-}
+} */
 
 .hero .shape {
   position: absolute;
