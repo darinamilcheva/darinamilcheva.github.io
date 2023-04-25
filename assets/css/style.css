@@ -649,6 +649,63 @@ textarea.input-field {
   #MEDIA QUERIES
 \*-----------------------------------*/
 
+
+/**
+ * responsive for large than 412px screen
+ */
+
+@media (min-width: 375px) {
+
+  
+
+  /**
+   * REUSED STYLE
+   */
+   
+
+  .container {
+    max-width: 400px;
+    width: 90%;
+    margin-inline: auto;
+    position: relative;
+    
+  }
+  
+  .section-text { --fs-5: 1.8rem; }
+  .project-card { --fs-5: 1.8rem; }
+
+
+
+  /**
+   * PROJECT
+   */
+
+  .project-card { --padding: 68px; margin: 0;}
+
+
+  .project-container {
+    max-width: 400px;
+    width: 99%;
+    margin-inline: auto;
+    
+  } 
+
+  /**
+   * CONTACT
+   */
+
+  .contact-card { padding: 68px; }
+
+  /* .section {
+    max-width: 412px;
+    width: 99%;
+    margin-inline: auto;
+
+  } */
+
+}
+
+
 /**
  * responsive for large than 575px screen
  */
@@ -1073,15 +1130,25 @@ textarea.input-field {
   #back-to-top-btn { font-size: 15px; width: 32px; height: 32px; bottom: 20px; right: 20px; }
 }
 
-@media(max-width:415px) {
+@media(max-width:412px) {
   body { font-size: 16px; }
   .container { padding: 10px 50px; }
-  .project-container { padding: 10px 20px; }
+  .project-container { padding: 10px 10px; }
   .input-wrapper { padding: 10px;  }
   h1 { font-size: 26px; }
   h2 { font-size: 22px; }
   hr { margin: 30px 0; }
   #back-to-top-btn { font-size: 15px; width: 32px; height: 32px; bottom: 6px; right: 15px; }
+
+  @media(max-width:375px) {
+    body { font-size: 16px; }
+    .container { padding: 10px 50px; }
+    .project-container { padding: 10px 10px; }
+    .input-wrapper { padding: 10px;  }
+    h1 { font-size: 26px; }
+    h2 { font-size: 22px; }
+    hr { margin: 30px 0; }
+    #back-to-top-btn { font-size: 15px; width: 32px; height: 32px; bottom: 6px;  }
 
 
 }
@@ -1140,4 +1207,5 @@ textarea.input-field {
     opacity: 0;
     transform: translate3d(0, 100%, 0);
   }
+}
 }
