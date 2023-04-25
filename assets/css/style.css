@@ -155,7 +155,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .container { 
-  padding-inline: 15px; 
+  padding-inline: 10px; 
   position: relative;
   
   
@@ -534,7 +534,7 @@ font-size: large;
 .project .grid-list { gap: 40px; }
 
 .project-card {
-  --padding: 50px;
+  --padding: 35px;
   padding-right: 5px;
   text-align: left;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -564,7 +564,7 @@ font-size: large;
 .project-card .card-title { margin-block: 16px; }
 
 .project-card .card-text { 
-  margin-block-end: 20px; 
+  margin-block-end: 15px; 
  
 
 }
@@ -600,7 +600,7 @@ font-size: large;
 
 .contact-card {
   background-color: var(--snow);
-  padding: 55px;
+  padding: 38px;
   border-radius: var(--radius-8);
   display: grid;
   gap: 40px;
