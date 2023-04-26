@@ -663,13 +663,7 @@ textarea.input-field {
    */
    
 
-  .container {
-    max-width: 400px;
-    width: 90%;
-    margin-inline: auto;
-    position: relative;
-    
-  }
+  
   
   .section-text { --fs-5: 1.8rem; }
   .project-card { --fs-5: 1.8rem; }
