@@ -674,7 +674,7 @@ textarea.input-field {
    * PROJECT
    */
 
-  .project-card { --padding: 68px; margin: 0;}
+  .project-card { --padding: 50px; margin: 0;}
 
 
   .project-container {
@@ -688,7 +688,7 @@ textarea.input-field {
    * CONTACT
    */
 
-  .contact-card { padding: 68px; }
+  .contact-card { padding: 45px; }
 
   /* .section {
     max-width: 412px;
@@ -1126,19 +1126,19 @@ textarea.input-field {
 
 @media(max-width:412px) {
   body { font-size: 16px; }
-  .container { padding: 10px 50px; }
+  .container { padding: 10px 30px; }
   .project-container { padding: 10px 10px; }
-  .input-wrapper { padding: 10px;  }
+  
   h1 { font-size: 26px; }
   h2 { font-size: 22px; }
   hr { margin: 30px 0; }
-  #back-to-top-btn { font-size: 15px; width: 32px; height: 32px; bottom: 6px; right: 15px; }
+  #back-to-top-btn { font-size: 15px; width: 32px; height: 32px; bottom: 6px; right: 6px; }
 
   @media(max-width:375px) {
     body { font-size: 16px; }
-    .container { padding: 10px 50px; }
-    .project-container { padding: 10px 10px; }
-    .input-wrapper { padding: 10px;  }
+    .container { padding: 10px 20px; }
+    .project-container { padding: 10px 20px; }
+    
     h1 { font-size: 26px; }
     h2 { font-size: 22px; }
     hr { margin: 30px 0; }
