@@ -674,7 +674,7 @@ textarea.input-field {
    * PROJECT
    */
 
-  .project-card { --padding: 50px; margin: 0;}
+  .project-card { --padding: 40px; margin: 0;}
 
 
   .project-container {
