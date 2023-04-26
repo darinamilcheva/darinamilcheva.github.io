@@ -1,4 +1,4 @@
-Darina - I'm User Experience Designer & Developer.
+Darina - User Experience & Visual Designer.
 
 
 
@@ -32,7 +32,7 @@ alt = Darry
 
 alt = 250+ Projects Done
 
-I'm User Interface Designer & Developer.
+I'm User Experience & Visual Designer.
 
 
 
@@ -47,20 +47,15 @@ What I Do?
 
 Duis mollis est commodo luctus nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl.
 
-Web Design
-100 %
+
 bg-color = #c7b1dd
 
-Mobile Design
-80 %
+
 bg-color = #8caeec
 
-Development
-85 %
+
 bg-color = #b0d4c1
 
-SEO
-90 %
 bg-color = #e3a6b6
 
 alt = web design icon
@@ -75,7 +70,7 @@ alt = web development icon
 Development
 
 alt = web seo icon
-SEO
+Research
 
 
 
@@ -120,7 +115,7 @@ color - #d16b86
 Mobile Design
 Storage App
 
-Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper.
+
 
 alt = Mobile Design
 
@@ -147,7 +142,7 @@ Send message
 
 #---------- FOOTER ----------#
 
-© 2022 codewithsadee. All rights reserved.
+
 
 <ion-icon name="logo-twitter"></ion-icon>
 <ion-icon name="logo-facebook"></ion-icon>
