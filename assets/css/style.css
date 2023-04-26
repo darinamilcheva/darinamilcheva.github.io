@@ -1126,20 +1126,21 @@ textarea.input-field {
 
 @media(max-width:412px) {
   body { font-size: 16px; }
-  .container { padding: 10px 30px; }
-  .project-container { padding: 10px 10px; }
+  .container { padding: 10px 40px; }
+  .project-container { padding: 50px; }
   
-  h1 { font-size: 26px; }
+  h1 { font-size: 26px;}
   h2 { font-size: 22px; }
   hr { margin: 30px 0; }
   #back-to-top-btn { font-size: 15px; width: 32px; height: 32px; bottom: 6px; right: 6px; }
 
   @media(max-width:375px) {
     body { font-size: 16px; }
-    .container { padding: 10px 20px; }
-    .project-container { padding: 10px 20px; }
+    .container { padding: 10px 40px; }
+    .project-container { padding: 60px; }
     
-    h1 { font-size: 26px; }
+    h1 { font-size: 26px;
+    padding: 30px; }
     h2 { font-size: 22px; }
     hr { margin: 30px 0; }
     #back-to-top-btn { font-size: 15px; width: 32px; height: 32px; bottom: 6px;  }
