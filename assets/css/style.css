@@ -1127,7 +1127,7 @@ textarea.input-field {
 @media(max-width:412px) {
   body { font-size: 16px; }
   .container { padding: 10px 40px; }
-  .project-container { padding: 50px; }
+  .project-container { padding: 35px; }
   
   h1 { font-size: 26px;}
   h2 { font-size: 22px; }
