@@ -259,7 +259,7 @@ body.nav-active { overflow: hidden; }
 
 .project-container {
   width: 90%;
-  max-width: 1320px;
+  max-width: 1220px;
   margin-inline: auto;
   position: relative;
   z-index: 2;
@@ -1012,7 +1012,7 @@ textarea.input-field {
 
   .container,
   .header { 
-    max-width: 1140px; 
+    max-width: 1040px; 
     
   }
 .project-container {
@@ -1053,7 +1053,7 @@ textarea.input-field {
    */
 
   .container, .project-container, 
-  .header { max-width: 1320px; }
+  .header { max-width: 1220px; }
 
 
 
